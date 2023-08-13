@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/6e2a0fd86a.js" crossorigin="anonymous"></script>
+    <script defer src="js/signup.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="login">
+                <div class="login-img">
+                   <img src="images/bluebg.jpg">
+                </div>
+                <div class="login-right">
+                    <form id="form" action="welcome.html">
+                        <h1>Create your account.</h1>
+                        
+                        <label for="name" name="name">Name <i class="fa-solid fa-asterisk"></i> </label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                        <label for="email" name="email">Email <i class="fa-solid fa-asterisk"></i></label>
+                        <input type="email" name="email" id="email" placeholder="Enter your Email" >
+                        <label for="password" name="password">Password <i class="fa-solid fa-asterisk"></i></label>
+                        <input type="password" name="password" id="password" placeholder="Enter your Password" >
+                        <p><input type="checkbox" required>I agree to all Terms , Privacy Policy and Fees.</p>
+                        
+                        <button type="submit" id="button">Sign up</button>
+                        <p class="exist">Already have an acconut?<a href="login.html">Log in</a></p>
+                        <h3><span>or</span></h3>
+                        <a href="https://accounts.google.com/" class="google"><img src="images/google_300221.png" alt=""><span>Login with Google</span></a>  
+                       
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>>
+    </body>
+</html>
